@@ -12,8 +12,8 @@ $xduong = "\033[1;34m";
 $hong = "\033[1;35m";
 $trang = "\033[1;37m";
 $_SESSION['useragent'] = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36';
-$lmkdz= $trang."❀".$do."[".$luc."K-Tool".$do."] ".$trang."➨ ";
-$lmkdz1= $xnhac."K-Tool";
+$lmkdz= $trang."❀".$do."[".$luc."BeniOS".$do."] ".$trang."➨ ";
+$lmkdz1= $xnhac."BeniOS";
 if (strtoupper(substr(PHP_OS, 0, 3)) === 'LIN') {
 	$_SESSION['load'] = 2000;
 	$_SESSION['delay'] = 5000;
@@ -86,7 +86,7 @@ $check6 = json_decode(file_get_contents("https://nnquangpro.com/apivip/pop.php?p
 }
 function delay ($delay){
 	for($tt = $delay ;$tt>= 0;$tt--){
-		echo "\r\033[1;33m   K-Tool  \033[1;31m →_→       \033[1;32m LO      \033[1;31m [ $tt ] "; usleep(150000);
+		echo "\r\033[1;33m   BeniOS  \033[1;31m →_→       \033[1;32m LO      \033[1;31m [ $tt ] "; usleep(150000);
         echo "\r\033[1;31m   BeniOS  \033[1;33m   →_→     \033[1;37m LOA     \033[1;31m [ $tt ] "; usleep(150000);
         echo "\r\033[1;32m   BeniOS  \033[1;33m     →_→   \033[1;37m LOAD    \033[1;31m [ $tt ] "; usleep(150000);
         echo "\r\033[1;34m   BeniOS  \033[1;33m      →_→  \033[1;37m LOADI   \033[1;31m [ $tt ] "; usleep(150000);
